@@ -1,5 +1,8 @@
 body{
     background-color: azure; 
+    padding: 0;
+    margin: 0;
+
 }
 
 h1 {
@@ -16,17 +19,29 @@ header{
 
 .container{
 
+    width: 640px;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    
+
 }
 
 div{
-  
+    
     display: flex;
     flex-wrap: wrap;
+
 }
 
 img{
-max-width: 160px;
+   
+  max-width: 160px;
   max-height: 120px;
+  margin: 10px;
+  border-radius: 80px;
+
+  
 }
 
 
