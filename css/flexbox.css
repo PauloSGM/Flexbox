@@ -1,9 +1,33 @@
 body{
+    background-color: azure; 
+}
 
-    background-color: azure;
+h1 {
+    text-align: center;
+}
+h3 {
+
+    text-align: center;
+}
+header{
+    display: block;
+    align-items: center;
 }
 
 .container{
 
-    display: flex;
 }
+
+div{
+  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+max-width: 160px;
+  max-height: 120px;
+}
+
+
+
