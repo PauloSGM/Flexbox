@@ -21,8 +21,8 @@ header{
 }
 
 .container{
-
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     margin:  0 auto;
@@ -35,7 +35,7 @@ img{
   max-width: 300px;
   max-height: 150px;
   margin: 5px;
-  border-radius: 100px;
+  border-radius: 75px;
   
 
 }
@@ -50,5 +50,15 @@ a{
     
 }
 
+@media(max-width:600px){
+    img{
+        
+        max-width: 300px;
+        max-height: 200px;
+        margin: 3px;
+        border-radius: 0px;
+        
+      }
+}
 
 
