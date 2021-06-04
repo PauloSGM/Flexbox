@@ -1,7 +1,11 @@
 body{
-    background-color: azure; 
+    background-color: rgb(255, 255, 255); 
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 0;
     margin: 0;
+    
 
 }
 
@@ -19,29 +23,31 @@ header{
 
 .container{
 
-    width: 640px;
-    height: 480px;
     display: flex;
-    align-items: center;
-    
-
-}
-
-div{
-    
-    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    margin:  0 auto;
 
 }
 
 img{
-   
-  max-width: 160px;
-  max-height: 120px;
-  margin: 10px;
-  border-radius: 80px;
+    min-height: 75;
+   min-width: 100px;
+  max-width: 200px;
+  max-height: 150px;
+  margin: 5px;
+  border-radius: 100px;
 
-  
+}
+a{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color:rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    position:relative
+    
 }
 
 
